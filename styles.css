@@ -3,8 +3,8 @@
 /* Apply grid properties to the grid container */
 .holder {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-    grid-template-rows: repeat(2, 1fr);    /* Two equal rows */
+    grid-template-columns:repeat(2,100px); /* Two equal columns */
+    grid-template-rows:repeat(2, 100px);    /* Two equal rows */
     width: 200px; /* Total size of 200px */
     height: 200px; /* Total size of 200px */
     grid-gap: 10px; /* Adjust this value for spacing between items */
